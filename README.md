@@ -97,4 +97,4 @@ cd tools
 
 ## Security note
 
-Mongo port is locked down to only access by localhost. 
+Mongo port is locked down to only access with the host i.e. localhost. 
