@@ -3,6 +3,8 @@ Elixir Ambience helps developers to quickly deliver comprehensive, safe and reli
 
 For more infomation on Elixir Ambience, you may visit https://docs.elixirtech.com/Ambience/2023.0/index.html or www.elixirtech.com. A docker image of Elixir Ambience is at https://hub.docker.com/repository/docker/elixirtech/elixir-ambience/general.
 
+You can access our online support forum at support.elixirtech.com or email to support@elixirtech.com for technical queries. 
+
 # Run Ambience with Docker Compose
 
 ## Requirement
