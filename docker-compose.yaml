@@ -1,0 +1,31 @@
+version: "3"
+services:
+  mongo:
+    container_name: elixir-mongo
+    image: mongo:latest
+    ports:
+      - 127.0.0.1:27017:27017
+    volumes:
+      - elixirmongodbdata:/data/db
+  elixir-ambience:
+    container_name: elixir-ambience
+    image: elixirtech/elixir-ambience
+    environment:
+       #mongodb running in host for Windows and OSx
+       #- mongohost=host.docker.internal
+       #mongodb part of docker compose
+       - mongourl=${mongourl}
+       - externalhost=${externalhost}
+       - externalport=${externalport}
+       - externalprotocol=${externalprotocol}
+    ports:
+       - 1740:1740
+#Map this volume if you like to use a locally deployed licence
+   # volumes:
+   #   - type: bind
+   #     source: ./etc/ElixirAmbience.licence
+   #     target: /opt/elixir/Ambience/etc/ElixirAmbience.licence
+    depends_on:
+       - mongo
+volumes:
+    elixirmongodbdata:

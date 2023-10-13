@@ -1,0 +1,1 @@
+You can place application.conf file to override docker image setting or licence file as ElixrAmbience.licence. Please check the mapping of the files in docker-compose.yaml. 
