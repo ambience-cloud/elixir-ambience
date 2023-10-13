@@ -17,7 +17,7 @@ For more infomation on Elixir Ambience, you may visit https://docs.elixirtech.co
 ./run-ambience-compose.sh 
 ```
 
-This will pull a latest Ambience and MongoDB image at elixirtech/elx-ambience docker repository, start Mongodb and Ambience services in the order as shown below. 
+This will pull a latest Ambience and MongoDB image at elixirtech/elixir-ambience docker repository, start Mongodb and Ambience services in the order as shown below. 
 
 ```
 latest: Pulling from elixirtech/elixir-ambience
