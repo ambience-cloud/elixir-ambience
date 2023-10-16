@@ -1,7 +1,7 @@
 # Overview
 Elixir Ambience helps developers to quickly deliver comprehensive, safe and reliable software solutions. Developer can rapidly create applications with seamless integration to MongoDB for data management and support enterprise business reporting functions such as dashboards and reports out of the box.
 
-For more infomation on Elixir Ambience, you may visit https://docs.elixirtech.com/Ambience/2023.0/index.html or www.elixirtech.com. A docker image of Elixir Ambience is at https://hub.docker.com/repository/docker/elixirtech/elixir-ambience/general.
+For more infomation on Elixir Ambience, you may visit https://docs.elixirtech.com/Ambience/2023.0/index.html or www.elixirtech.com. A docker image of Elixir Ambience is at https://hub.docker.com/r/elixirtech/elixir-ambience.
 
 # Run Ambience with Docker Compose
 
