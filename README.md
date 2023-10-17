@@ -43,20 +43,16 @@ externalprotocol="http:"
 
 You can configure default mongodb url, external host, port and http protocol. 
 
-The external port used for docker's MongoDB is 27017, if you have a port conflict with any MongoDB running the host you may change mongodb port in docker-compose.yaml as
+The external port used for docker's MongoDB is 28017, if you have a port conflict with any MongoDB running the host you may change mongodb port in docker-compose.yaml as
 
 ```
  mongo:
     ...
     ports:
-      - 127.0.0.1:[port]:27017
-i.e.
- mongo:
-    ...
-    ports:
-      - 127.0.0.1:28017:27017
-
+      - 127.0.0.1:[change port from 20817]:27017
 ```
+
+You use external tool like mongosh to connect from host to mongodb container using 28017.
 
 ##  Useful docker compose commands and scripts
 
