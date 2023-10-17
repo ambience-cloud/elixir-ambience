@@ -4,7 +4,7 @@ services:
     container_name: elixir-mongo
     image: mongo:latest
     ports:
-      - 127.0.0.1:27017:27017
+      - 127.0.0.1:28017:27017
     volumes:
       - elixirmongodbdata:/data/db
   elixir-ambience:
