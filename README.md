@@ -29,6 +29,8 @@ docker.io/elixirtech/elixir-ambience:latest
  ⠿ Container elixir-ambience  Started  
 ``` 
 
+Once the service is started you can browse to the url as http://localhost:1740
+
 ## Configuration
 - Docker compose configuration file is docker-compose.yaml. It is configured to run a MongoDB database and Ambience containers. You can remove the MongoDB configuration if you have running MongoDB already in the host.
 
@@ -87,24 +89,9 @@ docker compose restart
 This useful if you deploy Ambience licence via the browser, you will need to restart Ambience container to apply the licence you can use
 
 ```
-docker compose  restart elx-ambience
+docker compose  restart elixir-ambience
 ```
 
-
-- debug a running Ambience container 
-
-```
-cd tools
-./debug-compose.sh
-```
-
-- run ambience container without compose
-Alternative you can run a standalone Ambience container without using compose
-
-```
-cd tools
-./run-ambience.sh
-```
 
 ## Security note
 
