@@ -9,7 +9,7 @@ services:
       - elixirmongodbdata:/data/db
   elixir-ambience:
     container_name: elixir-ambience
-    image: elixirtech/elixir-ambience
+    image: elixirtech/elixir-ambience:${version}
     environment:
        #mongodb running in host for Windows and OSx
        #- mongohost=host.docker.internal
