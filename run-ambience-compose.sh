@@ -1,4 +1,4 @@
-version=2025.snapshot
+version=2027.snapshot
 export version
 docker pull elixirtech/elixir-ambience:${version}
 #variables are in .env file
